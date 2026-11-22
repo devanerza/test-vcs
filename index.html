@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nocturne runs overnight sleeper trains across Europe. Board after dinner, wake up in another city.">
+  <title>Nocturne | Night rail journeys</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="service-strip">
+    <div class="strip-inner">
+      <p><span class="strip-dot" aria-hidden="true"></span> Winter timetable is out</p>
+      <a href="#routes">See the routes</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Nocturne, home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">NOCTURNE</span>
+        <span class="brand-sub">night rail</span>
+      </a>
+
+      <!-- Student pages: routes.html, cabins.html, dining.html, journal.html, gallery.html, about.html, contact.html -->
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="nav-link" href="routes.html">Routes <span class="soon">soon</span></a>
+        <a class="nav-link" href="cabins.html">Cabins <span class="soon">soon</span></a>
+        <a class="nav-link" href="dining.html">Dining <span class="soon">soon</span></a>
+        <a class="nav-link" href="journal.html">Journal <span class="soon">soon</span></a>
+        <a class="nav-link" href="gallery.html">Gallery <span class="soon">soon</span></a>
+        <a class="nav-link" href="about.html">About <span class="soon">soon</span></a>
+        <a class="nav-link" href="contact.html">Contact <span class="soon">soon</span></a>
+      </nav>
+
+      <a class="header-cta" href="contact.html">Reserve a berth <span class="soon">soon</span></a>
+
+      <details class="mobile-nav">
+        <summary aria-label="Open navigation menu">
+          <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="menu-label">Menu</span>
+        </summary>
+        <div class="mobile-menu">
+          <a href="routes.html">Routes <span class="soon">soon</span></a>
+          <a href="cabins.html">Cabins <span class="soon">soon</span></a>
+          <a href="dining.html">Dining <span class="soon">soon</span></a>
+          <a href="journal.html">Journal <span class="soon">soon</span></a>
+          <a href="gallery.html">Gallery <span class="soon">soon</span></a>
+          <a href="about.html">About <span class="soon">soon</span></a>
+          <a href="contact.html">Contact <span class="soon">soon</span></a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span> Sleeper trains, done properly</p>
+          <h1><span class="title-line">The night</span><span class="title-line">is yours<span class="title-dot">.</span></span></h1>
+          <p class="hero-lede">Board after dinner. Wake up in another country. The hours you would have spent travelling become hours you actually wanted.</p>
+          <div class="hero-actions">
+            <a class="btn btn-solid" href="#routes">See the routes</a>
+            <a class="btn btn-inline" href="#cabins">What is a berth?</a>
+          </div>
+          <p class="hero-cities">Lisbon&nbsp; / &nbsp;Paris&nbsp; / &nbsp;Vienna&nbsp; / &nbsp;Prague&nbsp; / &nbsp;Milan&nbsp; / &nbsp;Copenhagen</p>
+        </div>
+
+        <div class="board" aria-label="Example night service departures">
+          <div class="board-head">
+            <div class="board-title"><span class="board-light" aria-hidden="true"></span> Departures</div>
+            <div class="board-meta">TONIGHT · PLATFORM 4</div>
+          </div>
+          <div class="board-cols" aria-hidden="true">
+            <span>Service</span>
+            <span>Destination</span>
+            <span>Dep</span>
+            <span>Arr</span>
+            <span>Status</span>
+          </div>
+          <ul class="board-rows">
+            <li class="board-row" style="--i: 0">
+              <span class="cell-service">N 102</span>
+              <span class="cell-dest">Paris, Gare de l'Est</span>
+              <span class="cell-time cell-dep">21:40</span>
+              <span class="cell-time cell-arr">08:15</span>
+              <span class="cell-status"><i class="status-dot" aria-hidden="true"></i> Boarding</span>
+            </li>
+            <li class="board-row" style="--i: 1">
+              <span class="cell-service">N 214</span>
+              <span class="cell-dest">Vienna, Hauptbahnhof</span>
+              <span class="cell-time cell-dep">22:10</span>
+              <span class="cell-time cell-arr">09:35</span>
+              <span class="cell-status"><i class="status-dot status-quiet" aria-hidden="true"></i> On time</span>
+            </li>
+            <li class="board-row" style="--i: 2">
+              <span class="cell-service">N 308</span>
+              <span class="cell-dest">Milan, Centrale</span>
+              <span class="cell-time cell-dep">20:55</span>
+              <span class="cell-time cell-arr">07:40</span>
+              <span class="cell-status"><i class="status-dot status-quiet" aria-hidden="true"></i> On time</span>
+            </li>
+            <li class="board-row" style="--i: 3">
+              <span class="cell-service">N 416</span>
+              <span class="cell-dest">Copenhagen, Central</span>
+              <span class="cell-time cell-dep">23:05</span>
+              <span class="cell-time cell-arr">10:20</span>
+              <span class="cell-status"><i class="status-dot status-quiet" aria-hidden="true"></i> Check-in open</span>
+            </li>
+          </ul>
+          <div class="board-foot">
+            <span>All times local</span>
+            <span>Example service</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span class="ticker-group">Lisbon <b>·</b> Paris <b>·</b> Vienna <b>·</b> Prague <b>·</b> Milan <b>·</b> Copenhagen <b>·</b> </span>
+        <span class="ticker-group">Lisbon <b>·</b> Paris <b>·</b> Vienna <b>·</b> Prague <b>·</b> Milan <b>·</b> Copenhagen <b>·</b> </span>
+      </div>
+    </div>
+
+    <section class="reasons" id="why">
+      <div class="reasons-inner">
+        <div class="reasons-head">
+          <p class="eyebrow">Why night rail</p>
+          <h2>You travel while the world sleeps.</h2>
+          <p class="section-lede">A berth costs less than a hotel and a night. Mornings arrive with a view you did not have to drive to.</p>
+        </div>
+        <div class="reasons-list">
+          <article class="reason reason-lead">
+            <p class="reason-label">Time</p>
+            <h3>Give the day back to the day</h3>
+            <p>Leave after work and skip the airport queue, the security line and the seat you cannot sleep in. The distance is covered while you are offline.</p>
+          </article>
+          <article class="reason">
+            <p class="reason-label">Room</p>
+            <h3>A bed, a table, a window</h3>
+            <p>Your compartment is yours for the night. Fold down the berth, put your bag on the rack and keep the light to yourself.</p>
+          </article>
+          <article class="reason">
+            <p class="reason-label">Arrival</p>
+            <h3>Step out in the centre</h3>
+            <p>Trains stop where people live. You get off in the middle of the city with the whole morning ahead of you.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="routes" id="routes">
+      <div class="routes-inner">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">The network</p>
+            <h2>Three lines worth staying up for.</h2>
+          </div>
+          <a class="text-link" href="routes.html">Full timetable <span class="soon">soon</span></a>
+        </div>
+
+        <div class="ticket-rack">
+          <article class="ticket">
+            <div class="ticket-top">
+              <span class="ticket-code">N 102</span>
+              <span class="ticket-tag">Coastal</span>
+            </div>
+            <h3>London <span class="route-arrow" aria-hidden="true">→</span> Paris</h3>
+            <div class="ticket-times">
+              <div><strong>21:40</strong><span>St Pancras</span></div>
+              <span class="ticket-rule" aria-hidden="true"></span>
+              <div><strong>08:15</strong><span>Gare de l'Est</span></div>
+            </div>
+            <div class="ticket-bottom">
+              <span>Nightly, except Tuesday</span>
+              <strong>From €89</strong>
+            </div>
+          </article>
+
+          <article class="ticket">
+            <div class="ticket-top">
+              <span class="ticket-code">N 214</span>
+              <span class="ticket-tag">Imperial</span>
+            </div>
+            <h3>Paris <span class="route-arrow" aria-hidden="true">→</span> Vienna</h3>
+            <div class="ticket-times">
+              <div><strong>22:10</strong><span>Gare de l'Est</span></div>
+              <span class="ticket-rule" aria-hidden="true"></span>
+              <div><strong>09:35</strong><span>Hauptbahnhof</span></div>
+            </div>
+            <div class="ticket-bottom">
+              <span>Nightly</span>
+              <strong>From €119</strong>
+            </div>
+          </article>
+
+          <article class="ticket">
+            <div class="ticket-top">
+              <span class="ticket-code">N 308</span>
+              <span class="ticket-tag">Alpine</span>
+            </div>
+            <h3>Prague <span class="route-arrow" aria-hidden="true">→</span> Milan</h3>
+            <div class="ticket-times">
+              <div><strong>20:55</strong><span>Hlavní nádraží</span></div>
+              <span class="ticket-rule" aria-hidden="true"></span>
+              <div><strong>07:40</strong><span>Centrale</span></div>
+            </div>
+            <div class="ticket-bottom">
+              <span>Thursday to Sunday</span>
+              <strong>From €99</strong>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="berth" id="cabins">
+      <div class="berth-inner">
+        <div class="window-scene" aria-hidden="true">
+          <div class="window-frame">
+            <div class="window-sky">
+              <i class="star star-a"></i>
+              <i class="star star-b"></i>
+              <i class="star star-c"></i>
+              <i class="star star-d"></i>
+              <i class="star star-e"></i>
+              <i class="moon"></i>
+            </div>
+            <div class="window-sill"></div>
+          </div>
+          <p class="window-caption">Upper berth, westbound</p>
+        </div>
+
+        <div class="berth-copy">
+          <p class="eyebrow">On board</p>
+          <h2>A room that moves.</h2>
+          <p class="section-lede">Nothing about a sleeper feels like transit once the door closes. There is a real bed, enough quiet to read, and a window framed like a painting that keeps changing.</p>
+          <dl class="berth-specs">
+            <div><dt>Berth</dt><dd>Two-berth compartment</dd></div>
+            <div><dt>Wake-up</dt><dd>Optional, with coffee</dd></div>
+            <div><dt>Baggage</dt><dd>Two bags, no weight limit</dd></div>
+          </dl>
+          <a class="text-link" href="cabins.html">All cabin types <span class="soon">soon</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="journal" id="journal">
+      <div class="journal-inner">
+        <div class="journal-head">
+          <p class="eyebrow">From the journal</p>
+          <p class="journal-issue">Issue 04</p>
+        </div>
+        <blockquote class="journal-quote">
+          <p>The best part of the trip was the part I slept through.</p>
+          <footer>Notes from the Paris line</footer>
+        </blockquote>
+        <div class="journal-side">
+          <p>Short dispatches from the people who run the trains and the people who ride them.</p>
+          <a class="text-link" href="journal.html">Read the journal <span class="soon">soon</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="cta-inner">
+        <div>
+          <p class="eyebrow">Next departure</p>
+          <h2>Be somewhere else by breakfast.</h2>
+        </div>
+        <a class="btn btn-brass" href="#routes">Browse the routes</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <p class="footer-wordmark">NOCTURNE</p>
+        <p>Sleeper trains for people who like the journey better than the arrival.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="routes.html">Routes <span class="soon">soon</span></a></li>
+          <li><a href="cabins.html">Cabins <span class="soon">soon</span></a></li>
+          <li><a href="dining.html">Dining <span class="soon">soon</span></a></li>
+          <li><a href="gallery.html">Gallery <span class="soon">soon</span></a></li>
+          <li><a href="about.html">About <span class="soon">soon</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:hello@nocturne.example">hello@nocturne.example</a></li>
+          <li><a href="contact.html">Reserve a berth <span class="soon">soon</span></a></li>
+          <li>London, United Kingdom</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nocturne Rail. A demo project.</span>
+      <span>Built for a Git practice exercise.</span>
+    </div>
+  </footer>
+</body>
+</html>
