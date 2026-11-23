@@ -27,13 +27,13 @@ Karena tidak ada yang mengubah `index.html` atau `styles.css`, pull request satu
 
 | # | Halaman yang dibuat | File baru | Contoh branch |
 |---|---|---|---|
-| 1 | Rute dan jadwal | `routes.html`, opsional `routes.css` | `add/routes-devan` |
-| 2 | Kabin dan tempat tidur | `cabins.html`, opsional `cabins.css` | `add/cabins-dhani` |
-| 3 | Makanan di kereta | `dining.html`, opsional `dining.css` | `add/dining-ifadha` |
-| 4 | Jurnal perjalanan | `journal.html`, opsional `journal.css` | `add/journal-karin` |
-| 5 | Galeri | `gallery.html`, opsional `gallery.css` | `add/gallery-nisa` |
-| 6 | Tentang kami | `about.html`, opsional `about.css` | `add/about-sapna` |
-| 7 | Kontak dan pemesanan | `contact.html`, opsional `contact.css` | `add/contact-serli` |
+| 1 | Rute dan jadwal | `routes.html`, opsional `routes.css` | `feat/routes-devan` |
+| 2 | Kabin dan tempat tidur | `cabins.html`, opsional `cabins.css` | `feat/cabins-dhani` |
+| 3 | Makanan di kereta | `dining.html`, opsional `dining.css` | `feat/dining-ifadha` |
+| 4 | Jurnal perjalanan | `journal.html`, opsional `journal.css` | `feat/journal-karin` |
+| 5 | Galeri | `gallery.html`, opsional `gallery.css` | `feat/gallery-nisa` |
+| 6 | Tentang kami | `about.html`, opsional `about.css` | `feat/about-sapna` |
+| 7 | Kontak dan pemesanan | `contact.html`, opsional `contact.css` | `feat/contact-serli` |
 
 Satu halaman untuk satu siswa. Tulis nama Anda di sebelah baris tugas Anda saat di kelas agar tidak ada yang mengambil halaman yang sama.
 
